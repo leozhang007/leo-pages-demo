@@ -4,20 +4,19 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "clean": "gulp clean",
-    "build": "gulp build",
-    "develop": "gulp develop"
+    "clean": "leo-pages clean",
+    "build": "leo-pages build",
+    "develop": "leo-pages develop"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "gulp": "^4.0.2",
-    "gulp-cli": "^2.3.0"
+    "leo-pages": "^0.1.0"
   },
   "dependencies": {
     "bootstrap": "^4.5.0",
     "jquery": "^3.5.1",
-    "popper": "^1.0.1"
+    "popper.js": "^1.16.1"
   }
 }
